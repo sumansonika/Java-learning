@@ -11,3 +11,5 @@ Switching from one process to another requires some time for saving and loading 
 Threads share the same address space.
 A thread is lightweight.
 Cost of communication between the thread is low.
+
+The purpose of start() is to create a separate call stack for the thread. A separate call stack is created by it, and then run() is called by JVM.
