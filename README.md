@@ -13,3 +13,6 @@ A thread is lightweight.
 Cost of communication between the thread is low.
 
 The purpose of start() is to create a separate call stack for the thread. A separate call stack is created by it, and then run() is called by JVM.
+
+
+If we directly call run method, there is no context-switching because here t1 and t2 will be treated as normal object not thread object.
