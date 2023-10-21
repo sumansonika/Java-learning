@@ -18,3 +18,8 @@ Each thread starts in a separate call stack.
 Invoking the run() method from the main thread, the run() method goes onto the current call stack rather than at the beginning of a new call stack.
 
 If we directly call run method, there is no context-switching because here t1 and t2 will be treated as normal object not thread object.
+
+##Daemon thread : 
+It provides services to user threads for background supporting tasks. It has no role in life than to serve user threads.
+Its life depends on user threads.
+It is a low priority thread.
