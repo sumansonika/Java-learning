@@ -1,4 +1,4 @@
-MultiThreading 
+# MultiThreading 
 we use multithreading than multiprocessing because threads use a shared memory area. They don't allocate separate memory area so saves memory, 
 and context-switching between the threads takes less time than process.
 
@@ -19,7 +19,7 @@ Invoking the run() method from the main thread, the run() method goes onto the c
 
 If we directly call run method, there is no context-switching because here t1 and t2 will be treated as normal object not thread object.
 
-##Daemon thread : 
+### Daemon thread : 
 It provides services to user threads for background supporting tasks. It has no role in life than to serve user threads.
 Its life depends on user threads.
 It is a low priority thread.
